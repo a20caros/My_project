@@ -56,5 +56,6 @@ task archive(type: Zip) {
             commandLine 'git', 'describe', '--match=', '--always', '--dirty', '--abbrev=7'
             standardOutput = stdout
         }
-        "assignment_"+stdout.toString().trim()
+        "assignment_" + stdout.toString().trim()
     }() + ".zip"
+}
