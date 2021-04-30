@@ -1,7 +1,7 @@
-/.idea/*
-*.zip
 *.iml
 .gradle
+/.idea/*
+*.zip
 /local.properties
 /.idea/caches
 /.idea/libraries
